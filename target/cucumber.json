@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify CyberMonday text display in home page",
+        "description": "",
+        "id": "cybermondaysele;verify-cybermonday-text-display-in-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2484406999,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10850329200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify CyberMonday text display in home page",
+            "match": {
+              "location": "CyberMondaySele.verify_CyberMonday_text_display_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Sprint92"
+          }
+        ]
+      }
+    ],
+    "name": "CyberMondaySele",
+    "description": "",
+    "id": "cybermondaysele",
+    "keyword": "Feature",
+    "uri": "CyberMondaySele.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user login in profile",
+        "description": "",
+        "id": "example---user-story;verify-user-login-in-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 851578300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2774979999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click sign and click signin button",
+            "match": {
+              "location": "DellLogin.click_sign_and_click_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 702929800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User and password and click login",
+            "match": {
+              "location": "DellLogin.enter_User_and_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2178347900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user login in profile",
+            "match": {
+              "location": "DellLogin.verify_user_login_in_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sprint92"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify search result",
+        "description": "",
+        "id": "example---user-story;verify-search-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 931785700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Launch dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 989929300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter XPS in search field",
+            "match": {
+              "location": "DellLogin.enter_XPS_in_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2979771100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click search",
+            "match": {
+              "location": "DellLogin.click_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 610949301,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify search results",
+            "match": {
+              "location": "DellLogin.verify_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Sprint92"
+          }
+        ]
+      }
+    ],
+    "name": "Example - user story",
+    "description": "",
+    "id": "example---user-story",
+    "keyword": "Feature",
+    "uri": "DellLogin.feature"
+  }
+]

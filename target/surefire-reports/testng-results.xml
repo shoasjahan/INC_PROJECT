@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="27390" started-at="2021-12-05T13:17:59 CST" finished-at="2021-12-05T13:18:26 CST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="27390" started-at="2021-12-05T13:17:59 CST" finished-at="2021-12-05T13:18:26 CST">
+      <class name="com.TestRunnnner.TestRunnnnnnr">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="launchURL" is-config="true" duration-ms="2629" started-at="2021-12-05T13:17:59 CST" finished-at="2021-12-05T13:18:01 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="setUpClass" is-config="true" duration-ms="267" started-at="2021-12-05T13:18:01 CST" finished-at="2021-12-05T13:18:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="feature" duration-ms="11977" started-at="2021-12-05T13:18:02 CST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-12-05T13:18:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CyberMondaySele]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="feature" duration-ms="11593" started-at="2021-12-05T13:18:14 CST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-12-05T13:18:25 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Example - user story]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2021-12-05T13:18:25 CST" finished-at="2021-12-05T13:18:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="closeURL()[pri:0, instance:com.TestRunnnner.TestRunnnnnnr@78c03f1f]" name="closeURL" is-config="true" duration-ms="785" started-at="2021-12-05T13:18:25 CST" finished-at="2021-12-05T13:18:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- com.TestRunnnner.TestRunnnnnnr -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
